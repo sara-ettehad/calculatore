@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home/home.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+      <div class="calculator__Wrapper">
+            <div class="buttons__Wrapper">
+                <button class="btn primary__btn btn__mood">
+                    <i class="fa-regular fa-clock"></i>
+                </button>
+                <button class="btn primary__btn btn__clearall">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </button>
+            </div>
+            <div class="display__wrapper">
+                <div class="display__input">0</div>
+                <div class="display__output">0</div>
+            </div>
+            <div class="keypad__wrapper">
+                <table class="keypad__table">
+                    <tr>
+                        <td>
+                            <button class="btn primary__btn btn__top btn__clear--last">C</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn__top btn__minus--plus">+/-</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn__top btn__percent">%</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__right btn__division">/</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">7</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">8</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">9</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__right btn__multi">*</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">4</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">5</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">6</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__right btn__minus">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">1</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">2</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">3</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__right btn__plus">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div></div>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">0</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn-inpt btn__num">.</button>
+                        </td>
+                        <td>
+                            <button class="btn primary__btn btn__right btn__calculate">=</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+
+</html>

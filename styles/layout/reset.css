@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+
+*,
+
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #006d77;
+    --dark-color: #0c121a;
+    --accent-color: #da344d;
+    --light-color: aliceblue;
+    --secondary-color: #363946;
+
+    --border-radius-tiny:0.12rem;
+    --border-radius-xs:0.25rem;
+    --border-radius-sm:0.5rem;
+    --border-radius-md:1rem;
+    --border-radius-lg:1.5rem;
+    --border-radius-xl:2rem;
+    --border-radius-2xl:2.5rem;
+    --border-radius-3xl:3rem;
+
+    --font-size-xs:0.5rem;
+    --font-size-sm:0.75rem;
+    --font-size-md:1rem;
+    --font-size-lg:1.25rem;
+    --font-size-xl:1.5rem;
+    --font-size-2xl:2rem;
+    --font-size-3xl:3.5rem;
+    --font-size-4xl: 4.5rem;
+}
+
+i{
+    padding: 0 6px;
+}
+
+/* px , rem , em , pt , percent */
+html{
+    font-size: var(--font-size-lg);
+    font-family: "Poppins", "Segoe UI", "Open Sans", "Poppins", "Roboto", Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.5rem;
+    background: var(--light-color);
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0 1rem ;
+}
+
+.btn{
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: 0;
+    background: transparent;
+    font-size: var(--font-size-lg);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+input{
+    padding: 10px;
+    color: var(--light-color);
+}
+
+
+/* BEM */   
+
+.primary__btn:hover{
+    background-color: transparent;
+    border:none;
+    font-size: var(--font-size-2xl);
+}

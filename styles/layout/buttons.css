@@ -1,0 +1,11 @@
+.btn__top{
+    color: var(--primary-color);
+}
+
+.btn__right{
+    color: var(--accent-color);
+}
+
+.btn__num{
+    color: var(--dark-color);
+}
