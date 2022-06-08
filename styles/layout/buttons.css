@@ -9,3 +9,15 @@
 .btn__num{
     color: var(--dark-color);
 }
+
+.btn__right:hover{
+    background-color: #fcf7f7;
+}
+
+.btn__mood:hover{
+    background: transparent;
+}
+
+.btn__clearall:hover{
+    background: transparent;
+}

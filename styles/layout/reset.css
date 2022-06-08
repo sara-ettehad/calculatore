@@ -79,14 +79,11 @@ a{
 
 .btn{
     font-family: inherit;
-    padding: 1rem 1.5rem;
     border: none;
     outline: 0;
+    text-align: center;
     background: transparent;
     font-size: var(--font-size-lg);
-    display: flex;
-    align-items: center;
-    justify-items: center;
     width: 90px;
     height: 90px;
 }
@@ -102,5 +99,6 @@ input{
 .primary__btn:hover{
     background-color: transparent;
     border:none;
-    font-size: var(--font-size-2xl);
+    background-color: #f4fdff;
+    border-radius: 50%;
 }
