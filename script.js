@@ -44,7 +44,7 @@ function percent(){
     displayOutput.innerHTML = y/100;
 };
 
-document.querySelector(".btn__minus--plus").addEventListener("click" , minusPlus)
+document.querySelector(".btn__minus--plus").addEventListener("click" , minusPlus);
 
 function minusPlus(){
     if (displayInput.innerHTML.slice(0,1)==="-") {
@@ -63,42 +63,39 @@ function clearAll() {
     displayOutput.innerText = 0;
 };
 
-/*const theme = localStorage.getItem("theme");
-if (theme) {
-    displayWrapper.classList.add(theme);
-  if (displayWrapper.classList.contains("light")) {
-    logoColorChanger(true);
-    displayWrapper.classList.remove("dark");
-  }
+const displayEl = document.querySelector(".display");
+const keyboardEl = document.querySelector(".keypad__wrapper");
+const btnWrp = document.querySelector(".btn-wrp");
+const btnEr =document.querySelector(".btn-er");
+const btnSev = document.querySelector(".btn__sev");
+const btnEight =document.querySelector(".btn__eight");
+const btnNine =document.querySelector(".btn__nine");
+const btnFour =document.querySelector(".btn__four");
+const btnFive =document.querySelector(".btn__five");
+const btnSix =document.querySelector(".btn__six");
+const btnOne =document.querySelector(".btn__one");
+const btnTwo =document.querySelector(".btn__two");
+const btnThree =document.querySelector(".btn__three");
+const btnZero=document.querySelector(".btn__zero");
+const btnDot =document.querySelector(".btn__dot");
+document.querySelector(".btn__mood").addEventListener("click", switchBtn);
+
+
+function switchBtn() {
+  displayEl.classList.toggle('desplay--Night');
+  keyboardEl.classList.toggle('keyboard--Night');
+  btnWrp.classList.toggle('btn--Night');
+  btnEr.classList.toggle('btn--Night');
+  btnSev.classList.toggle('btn--Night');
+  btnEight.classList.toggle('btn--Night');
+  btnNine.classList.toggle('btn--Night');
+  btnFour.classList.toggle('btn--Night');
+  btnFive.classList.toggle('btn--Night');
+  btnSix.classList.toggle('btn--Night');
+  btnOne.classList.toggle('btn--Night');
+  btnTwo.classList.toggle('btn--Night');
+  btnThree.classList.toggle('btn--Night');
+  btnZero.classList.toggle('btn--Night');
+  btnDot.classList.toggle('btn--Night');
+
 }
-
-if (
-  (document.URL.includes("item.html") ||
-    document.URL.includes("profile.html")) &&
-    displayWrapper.classList.contains("light")
-) 
-
-
-document.querySelector(".btn__mood").addEventListener("click", mood);
-
-function mood() {
-    displayWrapper.classList.replace("dark", "light") || displayWrapper.classList.replace("light", "dark");
-  logoColorChanger(true);
-  localStorage.setItem("theme", "light");
-  if (
-    document.URL.includes("item.html") ||
-    document.URL.includes("profile.html")
-  )
-};
-
-document.querySelector(".theme-dark").addEventListener("click", function () {
-  bodyEl.classList.replace("light", "dark");
-  logoColorChanger(false);
-  localStorage.setItem("theme", "dark");
-  if (
-    document.URL.includes("item.html") ||
-    document.URL.includes("profile.html")
-  ) {
-    heroEl.classList.remove("hero--light");
-  }
-});*/

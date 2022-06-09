@@ -11,6 +11,8 @@
 }
 
 :root{
+
+    
     --primary-color: #006d77;
     --dark-color: #0c121a;
     --accent-color: #da344d;
@@ -84,9 +86,11 @@ a{
     text-align: center;
     background: transparent;
     font-size: var(--font-size-lg);
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
 }
+
 
 input{
     padding: 10px;
@@ -99,6 +103,6 @@ input{
 .primary__btn:hover{
     background-color: transparent;
     border:none;
-    background-color: #f4fdff;
+    background-color: #e7f5f8;
     border-radius: 50%;
 }

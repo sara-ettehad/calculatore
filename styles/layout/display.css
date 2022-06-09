@@ -2,7 +2,6 @@
     width: 380px;
     margin-left: auto;
     margin-right: auto;
-    background-color: ghostwhite;
 }
 
 .buttons__Wrapper{
@@ -16,9 +15,22 @@
     flex-direction: column;
     align-items: flex-end;
     margin-right: 40px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.desplay{
+    background-color: ghostwhite;
+}
+
+.desplay--Night{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
 }
 
 .keypad__wrapper{
     background-color: white;
+}
+
+.keyboard--Night{
+    background-color: var(--dark-color);
 }

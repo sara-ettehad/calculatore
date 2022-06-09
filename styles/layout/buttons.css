@@ -11,13 +11,23 @@
 }
 
 .btn__right:hover{
-    background-color: #fcf7f7;
+    background-color: #f9f0f0;
 }
 
 .btn__mood:hover{
     background: transparent;
+    font-size: larger;
 }
 
 .btn__clearall:hover{
     background: transparent;
+    font-size: larger;
+}
+
+.btn--Night{
+    color: var(--light-color);
+}
+
+.btn--Night:hover{
+    color: var(--dark-color);
 }
